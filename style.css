@@ -1,0 +1,21 @@
+body{
+  background-color: #EEF9BF;
+}
+
+.title{
+color: #75b79e;
+position: absolute;
+width: 540px;
+height: 63px;
+left: 285px;
+top: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+letter-spacing: -0.004em;
+text-align: center;
+
+}

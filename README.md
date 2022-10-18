@@ -9,8 +9,8 @@ Seu segundo projeto com JavaScript será a implementação do jogo Parrot Card G
 # Requisitos
 
 - Geral
-    - [ ]  Não utilize nenhuma biblioteca para implementar este projeto (jquery, lodash, react, etc), nem outras linguagens que compilem para JS (TypeScript, ELM, etc), somente JavaScript puro
-    - [ ]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub, em um repositório público
+    - [X]  Não utilize nenhuma biblioteca para implementar este projeto (jquery, lodash, react, etc), nem outras linguagens que compilem para JS (TypeScript, ELM, etc), somente JavaScript puro
+    - [X]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub, em um repositório público
     - [ ]  **A cada requisito implementado** faça um commit com uma mensagem descritiva do que você evoluiu
 - Layout
     - [ ]  Aplicar layout para desktop e mobile, seguindo figma abaixo
