@@ -1,21 +1,93 @@
 body{
   background-color: #EEF9BF;
+  display: flex;
+  justify-content: center;
+  /* width: 1140px;
+  padding: 0 15px; */
 }
 
 .title{
-color: #75b79e;
-position: absolute;
-width: 540px;
-height: 63px;
-left: 285px;
-top: 40px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 66px;
-letter-spacing: -0.004em;
-text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #75B79E;
+  font-weight: 700;
+  margin: 40px 0 30px 0;
+  text-align: center;
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 56px;
+}
+
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 117px;
+  height: 146px;
+  position: relative;
+  margin: 17px;
+  box-sizing: border-box;
+  position: relative;
+  position: absolute;
+}
+.face {
+  width: 100%;
+  height: 100%;
+  background-color: #A7E9AF;
+  border:  1px solid #99CEA8;  
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all .5s;
+  transform-style: preserve-3d;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  
+}
+.faceUp {
+  transform: rotateY(180deg);
+  transition: all 5s;
+ 
+}
+
+.faceUp {
+  
+  transform: rotateY(0deg);
+}
+ .faceDown
+{
+  transform: rotateY(-180deg);
+  transition: all 5s;
+}
+.time {
+  position: fixed;
+  top: 15px;
+  right: 15px;}
+
+.faceUp:hover{
+    background-image: url("./img/bobrossparrot.gif");
+  }
+
+@media all and (min-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
 }
