@@ -1,50 +1,34 @@
-  <!DOCTYPE html>
-  <html lang="en">
-
-
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PARROT CARD GAME</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parrot Card Game</title>
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
-
-    <body>
-      <div onclick="jogo()">
-
-        <header>
-          <h1 class="title">PARROT CARD GAME</h1>          
-        </header>
-
-        <div class="timer"><span id="time">0</span>segundo(s)</div>
-
-        <main class="board">
-          
-        </main>
-        
-        <!-- <section class="cards">
-
-          <div class="card">
-
-            <div class="face faceDown" onclick="virar(this)" >
-              <img src="./img/back.png">
-            </div>
-
-            <div class="face faceUp">
-              <img src="./img/bobrossparrot.gif">
-            </div>
-
-          </div>
-          
-        </section> -->
-
-        <script src="script.js"></script>
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>Parrot Card Game</h1>
       </div>
-    </body>
-  </html>
+      <div class="timer">
+        <span id="time">0</span> segundo(s)
+      </div>
+      
+      <div class="cards">
+        <div class="card">
+          <div class="face faceDown">
+            <img src="./imgs/back.png">
+          </div>
+          <div class="face faceUp">
+            <img src="./imgs/bobrossparrot.gif">
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!--talvez tenha que ter 16 cards ou simular 16 cartas e ter uma variavel que desloque-->
-        <!--precisa ter um contador de tempo-->
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
