@@ -69,6 +69,7 @@ h1 {
 .card.clicked .faceUp,
 .card.matched .faceUp {
   transform: rotateY(0deg);
+  transition: all 1s;
 }
 
 .card.clicked .faceDown,
